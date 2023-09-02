@@ -22,7 +22,7 @@ CrowdFactor is a composition of blocks, steals, and a home/away coefficient.
 CrowdFactor was shown to predict the result of a game better than random. 
 
 ### Detroit Crime Heatmap
-[See project on GitHub](https://github.com/burnsaustin145/Heat-Map) /
+[See project on GitHub](https://github.com/burnsaustin145/Heat-Map) //
 Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
 
 ![Detroit Crime](/assets/crime_heatmap_03_tran1.png)
@@ -35,4 +35,7 @@ Created this heatmap in R to visualize crime in Detroit over the last 100 years.
 My interest in AI began with the concept of semantic networks, and idea I learned from Douglas Hofstadter's [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). Since I have been interested in representing and manipulating knowledge in graph/hypergraph based structures. 
 
 Below is one such abstract structure.
+<p align="center">
+  <img src= alt=/assets/complex_object_tran.png, alt="complex object"/>
+</p>
 ![Complex Object Structure](/assets/complex_object_tran.png)
