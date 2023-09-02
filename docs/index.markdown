@@ -25,7 +25,7 @@ CrowdFactor was shown to predict the result of a game better than random.
 [See project on GitHub](https://github.com/burnsaustin145/Heat-Map)
 Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
 
-![Detroit Crime](/assets/crime_heatmap_03_tran.png)
+![Detroit Crime](/assets/crime_heatmap_03_tran1.png)
 
 *Heatmap uses [Stamen Map](https://rdrr.io/cran/ggmap/man/get_stamenmap.html) and [this open data](https://data.detroitmi.gov/datasets/detroitmi::rms-crime-incidents/explore?location=42.357655%2C-83.048440%2C15.00&showTable=true).*
 
