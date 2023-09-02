@@ -4,5 +4,7 @@
 
 layout: default
 ---
-# Title on MD Page
-## Heading1 on MD Page
+# Projects
+## Statistical Analysis
+## Semantic Networks
+![Complex Object Structure](/assets/complex_object.png)
