@@ -33,7 +33,7 @@ Created this heatmap in R to visualize crime in Detroit over the last 100 years.
 
 
 ## Semantic Networks
-My interest in AI began with the concept of semantic networks, and idea I learned from Douglas Hofstadter's [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). Since I have been interested in representing and manipulating knowledge in graph/hypergraph based structures. 
+My interest in AI began with the concept of semantic networks, an idea I learned from Douglas Hofstadter's [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). Since then I have been interested in representing and manipulating knowledge in graph/hypergraph based structures. 
 
 Below is one such abstract structure.
 <p align="center">
