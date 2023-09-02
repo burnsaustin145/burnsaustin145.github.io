@@ -36,6 +36,6 @@ My interest in AI began with the concept of semantic networks, and idea I learne
 
 Below is one such abstract structure.
 <p align="center">
-  <img src= alt=/assets/complex_object_tran.png, alt="complex object"/>
+  <img src="/assets/complex_object_tran.png", alt="complex object"/>
 </p>
 ![Complex Object Structure](/assets/complex_object_tran.png)
