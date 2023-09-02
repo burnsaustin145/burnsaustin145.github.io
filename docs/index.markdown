@@ -22,7 +22,7 @@ CrowdFactor is a composition of blocks, steals, and a home/away coefficient.
 CrowdFactor was shown to predict the result of a game better than random. 
 
 ### Detroit Crime Heatmap
-
+[See project on GitHub](https://github.com/burnsaustin145/Heat-Map)
 Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
 
 ![Detroit Crime](/assets/crime_heatmap_03_tran.png)
