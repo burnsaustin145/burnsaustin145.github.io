@@ -6,5 +6,7 @@ layout: default
 ---
 # Projects
 ## Statistical Analysis
+### NBA CrowdFactor Statistic
+![CrowdFactor](/assets/crowdFactor_blocks_stls.png)
 ## Semantic Networks
 ![Complex Object Structure](/assets/complex_object.png)
