@@ -14,10 +14,15 @@ layout: default
 
 Developed a novel statistic to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course.
 
-![CrowdFactor composition](/assets/crowdFactor_blocks_stls_tran.png)
+<p align="center">
+  <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
+</p>
 
 CrowdFactor is a composition of blocks, steals, and a home/away coefficient.
-![CrowdFactor Results](assets/cf_only_tran.png)
+
+<p align="center">
+  <img src="/assets/cf_only_tran.png" alt="CF results" width="100%"/>
+</p>
 
 CrowdFactor was shown to predict the result of a game better than random. 
 
@@ -27,7 +32,9 @@ CrowdFactor was shown to predict the result of a game better than random.
 
 Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
 
-![Detroit Crime](/assets/crime_heatmap_03_tran1.png)
+<p align="center">
+  <img src="/assets/crime_heatmap_03_tran1.png" alt="heatmap" width="100%"/>
+</p>
 
 *Heatmap uses [Stamen Map](https://rdrr.io/cran/ggmap/man/get_stamenmap.html) and [this open data](https://data.detroitmi.gov/datasets/detroitmi::rms-crime-incidents/explore?location=42.357655%2C-83.048440%2C15.00&showTable=true).*
 
