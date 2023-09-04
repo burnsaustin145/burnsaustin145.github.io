@@ -9,7 +9,7 @@ layout: default
 ## Statistical Analysis
 
 ### NBA CrowdFactor Statistic
-
+|Logistic Regression|Data Wrangling|
 [See project on GitHub](https://github.com/burnsaustin145/Statistical-Analysis-NBA)
 
 Developed a novel statistic to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course.
@@ -23,6 +23,7 @@ CrowdFactor was shown to predict the result of a game better than random.
 
 
 ### Detroit Crime Heatmap
+|Graphical Statistics|
 [See project on GitHub](https://github.com/burnsaustin145/Heat-Map)  
 
 Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
