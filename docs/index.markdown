@@ -18,7 +18,7 @@ Developed a novel statistic to represent team confidence. This work was done to 
   <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
 </p>
 
-CrowdFactor is a composition of blocks, steals, and a home/away coefficient.
+CrowdFactor statistic is created by applying a logit function to the stadium fill percentage, and then reflected about 0.5 for away teams.
 
 <p align="center">
   <img src="/assets/cf_only_tran.png" alt="CF results" width="100%"/>
