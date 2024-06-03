@@ -28,13 +28,13 @@ historical data into an interactive AI model, greatly improving access to inform
 Created a proportional-integral-derivative controller for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
 
 <p align="center">
-  <img src="/assets/states.png" alt="CF makeup" width="100%"/>
+  <img src="/assets/states1.png" alt="CF makeup" width="100%"/>
   <em>A state transition diagram of the system.</em>
 </p>
 
 
 <p align="center">
-  <img src="/assets/clamp.png" alt="CF makeup" width="100%"/>
+  <img src="/assets/clamp1.png" alt="CF makeup" width="100%"/>
 </p>
 
 Above we see the final result of speed over time, with minimal overshoot or oscillation. 
