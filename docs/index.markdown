@@ -6,6 +6,28 @@ layout: default
 ---
 # Projects
 
+## Cyberphysical Systems
+
+### Carla PID Controller
+|PID|Autonomous Driving|Carla|
+
+Created a proportional-integral-derivative controller for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
+
+<p align="center">
+  <img src="/assets/clamp.png" alt="CF makeup" width="100%"/>
+  <em>A state transition diagram of the system.</em>
+</p>
+
+
+<p align="center">
+  <img src="/assets/clamp.png" alt="CF makeup" width="100%"/>
+</p>
+
+Above we see the final result of speed over time, with minimal overshoot or oscillation. 
+
+Link to the project found <a href="https://github.com/burnsaustin145/carla_PID"> here </a>
+
+
 ## Statistical Analysis
 
 ### NBA CrowdFactor Statistic
