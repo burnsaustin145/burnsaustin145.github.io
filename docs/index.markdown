@@ -35,8 +35,7 @@ Created a proportional-integral-derivative controller for car throttle and brake
 
 <p align="center">
   <img src="/assets/clamp1.png" alt="CF makeup" width="100%"/>
-  <em>We see the final result of speed over time, with minimal overshoot or oscillation. 
-</em>
+  <em>We see the final result of speed over time, with minimal overshoot or oscillation.</em>
 </p>
 
 
