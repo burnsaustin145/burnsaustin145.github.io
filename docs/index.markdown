@@ -6,15 +6,29 @@ layout: default
 ---
 # Projects
 
+## AI
+
+### Undergraduate Research - Fine-tuning
+|Fine-tuning|LLM|
+(in progress)
+A project using fine-tuning to investigate and improve the truthfulness of chat gpt-turbo 3.5
+
+### LLM for the Contemporary History of Iran
+|RAG|LLM|
+(in progress)
+This project integrates current political and
+historical data into an interactive AI model, greatly improving access to information on Iran’s contemporary history.
+
 ## Cyberphysical Systems
 
 ### Carla PID Controller
-|PID|Autonomous Driving|Carla|
+|PID|Carla|Autonomous Driving|
+<a href="https://github.com/burnsaustin145/carla_PID">See project on GitHub</a>
 
 Created a proportional-integral-derivative controller for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
 
 <p align="center">
-  <img src="/assets/clamp.png" alt="CF makeup" width="100%"/>
+  <img src="/assets/states.png" alt="CF makeup" width="100%"/>
   <em>A state transition diagram of the system.</em>
 </p>
 
@@ -25,7 +39,7 @@ Created a proportional-integral-derivative controller for car throttle and brake
 
 Above we see the final result of speed over time, with minimal overshoot or oscillation. 
 
-Link to the project found <a href="https://github.com/burnsaustin145/carla_PID"> here </a>
+Link to the project found 
 
 
 ## Statistical Analysis
