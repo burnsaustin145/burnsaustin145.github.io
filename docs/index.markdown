@@ -22,7 +22,7 @@ historical data into an interactive AI model, greatly improving access to inform
 ## Cyberphysical Systems
 
 ### Carla PID Controller
-|PID|Carla|Autonomous Driving|
+|PID|Carla|Autonomous Driving| 
 [See project on GitHub](https://github.com/burnsaustin145/carla_PID){:target="_blank"}
 
 Created a proportional-integral-derivative controller for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
