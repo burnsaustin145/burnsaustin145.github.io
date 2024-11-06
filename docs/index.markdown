@@ -10,14 +10,17 @@ layout: default
 
 ### Undergraduate Research - Fine-tuning
 |Fine-tuning|LLM|
-(in progress)
 A project using fine-tuning to investigate and improve the truthfulness of chat gpt-turbo 3.5
+- Hundreds of fine-tuning examples were created and utilized with the OpenAI api, and tested with TruthfulQA data 
+- Insufficencies in current research were identified along with future areas of inquiry
 
 ### LLM for the Contemporary History of Iran
-|RAG|LLM|
-(in progress)
+|RAG|LLM|JavaScript|Firebase|
 This project integrates current political and
 historical data into an interactive AI model, greatly improving access to information on Iran’s contemporary history.
+ - [Persian Mind](https://huggingface.co/universitytehran/PersianMind-v1.0){:target="_blank"}, a Llama3 model was used in conjunction with retrieval augmented generation on academic resources
+ - I designed this system and deployed it as a web application along with a quantized version of the LLM on our personal server with limited resources 
+ - Not seen on github due to ownership 
 
 ## Cyberphysical Systems
 
@@ -64,7 +67,7 @@ CrowdFactor was shown to predict the result of a game better than random.
 |Graphical Statistics|  
 [See project on GitHub](https://github.com/burnsaustin145/Heat-Map){:target="_blank"}  
 
-Created this heatmap in R to visualize crime in Detroit over the last 100 years. 
+This heatmap was created in R to visualize crime in Detroit over the last 100 years. 
 
 <p align="center">
   <img src="/assets/crime_heatmap_03_tran1.png" alt="heatmap" width="100%"/>
