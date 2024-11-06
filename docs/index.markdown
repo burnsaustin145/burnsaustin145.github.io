@@ -10,6 +10,7 @@ layout: default
 
 ### Undergraduate Research - Fine-tuning
 |Fine-tuning|LLM|
+[See project on GitHub](https://github.com/burnsaustin145/FineTuning){:target="_blank"}
 A project using fine-tuning to investigate and improve the truthfulness of chat gpt-turbo 3.5
 - Hundreds of fine-tuning examples were created and utilized with the OpenAI api, and tested with TruthfulQA data 
 - Insufficencies in current research were identified along with future areas of inquiry
