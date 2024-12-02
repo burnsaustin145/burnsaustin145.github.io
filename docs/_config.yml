@@ -21,8 +21,8 @@
 title: Austin Burns
 email: burnsaustin145@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Senior CS student at Wayne State University with research aspirations. 
-  Interested in: Mathematics, AI, Semantic Networks...
+  CS graduate from Wayne State University (July 2024). 
+  Interested in: Mathematics, Statistical Analysis, Semantic Networks...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
