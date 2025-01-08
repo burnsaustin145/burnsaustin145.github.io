@@ -30,17 +30,32 @@ historical data into an interactive AI model, greatly improving access to inform
 |PID|Carla|Autonomous Driving|  
 [See project on GitHub](https://github.com/burnsaustin145/carla_PID){:target="_blank"}
 
-Created a proportional-integral-derivative controller for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
+<p align="center">
+  <img src="/assets/carla_ex.jpeg" alt="CF makeup" width="100%"/>
+  <em>A state transition diagram of the system.</em>
+</p>
+
+A proportional-integral-derivative controller was created and tuned for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
 
 <p align="center">
   <img src="/assets/states1.png" alt="CF makeup" width="100%"/>
   <em>A state transition diagram of the system.</em>
 </p>
 
+This system uses a waypoint selection module to plan a route, and then uses object dectection to avoid collisions. The PID provides a way for the vehicle to maintain speed at a given set-point, and allows the vehicle to achieve set-point speed smoothly after a braking event.
+
+Without tuning, we see the vehicle speed overshoots the orange line representing the given set-point. 
+
+<p align="center">
+  <img src="/assets/after_overshoot.png" alt="CF makeup" width="100%"/>
+  <em>Overshoot after braking event</em>
+</p>
+
+After tuning, we were able to smooth out the speed after a braking event.
 
 <p align="center">
   <img src="/assets/clamp1.png" alt="CF makeup" width="100%"/>
-  <em>We see the final result of speed over time, with minimal overshoot or oscillation.</em>
+  <em>We see the final result of speed over time, with minimal overshoot or oscillation</em>
 </p>
 
 
@@ -50,19 +65,20 @@ Created a proportional-integral-derivative controller for car throttle and brake
 |Logistic Regression|Data Wrangling|  
 [See project on GitHub](https://github.com/burnsaustin145/Statistical-Analysis-NBA){:target="_blank"}
 
-Developed a novel statistic to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course.
+A novel statistic was developed to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course. 
+
+The crowdfactor is defined as the percentage of stadium capacity passed through a sigmoid function, effectively amplifying the effect of a very full stadium on the home or away team -- the effect is inverted for the away team. Below we see a vauge relationship between the crowdfactor and blocks, steals, and points.
 
 <p align="center">
   <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
 </p>
 
-CrowdFactor statistic is created by applying a logit function to the stadium fill percentage, and then reflected about 0.5 for away teams.
+A team confidence statistic was then created using a combination of crowdfactor, blocks, and steals which was shown to predict the result of a game better than random -- as seen below. 
 
 <p align="center">
-  <img src="/assets/cf_only_tran.png" alt="CF results" width="100%"/>
+  <img src="/assets/cf_confidence.png" alt="CF results" width="100%"/>
 </p>
 
-CrowdFactor was shown to predict the result of a game better than random. 
 
 
 ### Detroit Crime Heatmap
@@ -72,7 +88,7 @@ CrowdFactor was shown to predict the result of a game better than random.
 This heatmap was created in R to visualize crime in Detroit over the last 100 years. 
 
 <p align="center">
-  <img src="/assets/crime_heatmap_03_tran1.png" alt="heatmap" width="100%"/>
+  <img src="/assets/crime_heatmap_01.png" alt="heatmap" width="100%"/>
 </p>
 
 *Heatmap uses [Stamen Map](https://rdrr.io/cran/ggmap/man/get_stamenmap.html){:target="_blank"} and [this open data](https://data.detroitmi.gov/datasets/detroitmi::rms-crime-incidents/explore?location=42.357655%2C-83.048440%2C15.00&showTable=true){:target="_blank"}.*
@@ -85,3 +101,6 @@ Below is one such abstract structure.
 <p align="center">
   <img src="/assets/complex_object_tran.png" alt="complex object" width="100%"/>
 </p>
+### Haskell 
+|Haskell|AI|
+This structure allows inferences to be made on relations, as implemented in [this](https://github.com/burnsaustin145/SemanticGraph){:target="_blank"} Haskell project. 
