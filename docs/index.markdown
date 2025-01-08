@@ -31,7 +31,7 @@ historical data into an interactive AI model, greatly improving access to inform
 [See project on GitHub](https://github.com/burnsaustin145/carla_PID){:target="_blank"}
 
 <p align="center">
-  <img src="/assets/carla_ex.jpeg" alt="CF makeup" width="100%"/>
+  <img src="/assets/carla_ex.png" alt="CF makeup" width="100%"/>
   <em>A state transition diagram of the system.</em>
 </p>
 
@@ -47,7 +47,7 @@ This system uses a waypoint selection module to plan a route, and then uses obje
 Without tuning, we see the vehicle speed overshoots the orange line representing the given set-point. 
 
 <p align="center">
-  <img src="/assets/after_overshoot.png" alt="CF makeup" width="100%"/>
+  <img src="/assets/after_overshoot_tran.png" alt="CF makeup" width="100%"/>
   <em>Overshoot after braking event</em>
 </p>
 
@@ -88,7 +88,7 @@ A team confidence statistic was then created using a combination of crowdfactor,
 This heatmap was created in R to visualize crime in Detroit over the last 100 years. 
 
 <p align="center">
-  <img src="/assets/crime_heatmap_01.png" alt="heatmap" width="100%"/>
+  <img src="/assets/crime_heatmap_03_tran1.png" alt="heatmap" width="100%"/>
 </p>
 
 *Heatmap uses [Stamen Map](https://rdrr.io/cran/ggmap/man/get_stamenmap.html){:target="_blank"} and [this open data](https://data.detroitmi.gov/datasets/detroitmi::rms-crime-incidents/explore?location=42.357655%2C-83.048440%2C15.00&showTable=true){:target="_blank"}.*
@@ -101,6 +101,15 @@ Below is one such abstract structure.
 <p align="center">
   <img src="/assets/complex_object_tran.png" alt="complex object" width="100%"/>
 </p>
-### Haskell 
-|Haskell|AI|
-This structure allows inferences to be made on relations, as implemented in [this](https://github.com/burnsaustin145/SemanticGraph){:target="_blank"} Haskell project. 
+### Haskell Based Semantic Network
+|Haskell|AI| 
+
+This structure allows inferences to be made on semantic relations, as implemented in [this](https://github.com/burnsaustin145/SemanticGraph){:target="_blank"} Haskell project. 
+
+This program performs the following operations
+
+>add node_name -> adds a node to the graph
+>relation domain_node relation range_node -> creates a labeled edge
+>query range_node -> returns all domain nodes with range_node in the range
+>infer node1 node2 -> creates a hypernode with label 'node1.node2', where the edges are the intersection of node1 edges and node2 edges
+>reveal -> shows the current state of the graph
