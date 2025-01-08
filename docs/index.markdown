@@ -9,32 +9,29 @@ layout: default
 ## AI
 
 ### Undergraduate Research - Fine-tuning
-|Fine-tuning|LLM| 
-
-[See project on GitHub](https://github.com/burnsaustin145/FineTuning){:target="_blank"}
-
+|Fine-tuning|LLM|  
+[See project on GitHub](https://github.com/burnsaustin145/FineTuning){:target="_blank"}  
 A project using fine-tuning to investigate and improve the truthfulness of chat gpt-turbo 3.5
 - Hundreds of fine-tuning examples were created and utilized with the OpenAI api, and tested with TruthfulQA data 
 - Insufficencies in current research were identified along with future areas of inquiry
 
 ### LLM for the Contemporary History of Iran
-|RAG|LLM|JavaScript|Firebase| //
-
+|RAG|LLM|JavaScript|Firebase|  
 This project integrates current political and
 historical data into an interactive AI model, greatly improving access to information on Iran’s contemporary history.
  - [Persian Mind](https://huggingface.co/universitytehran/PersianMind-v1.0){:target="_blank"}, a Llama3 model was used in conjunction with retrieval augmented generation on academic resources
  - I designed this system and deployed it as a web application along with a quantized version of the LLM on our personal server with limited resources 
  - Not seen on github due to ownership conflicts
 
- ## Statistical Analysis
+## Statistical Analysis
 
 ### NBA CrowdFactor Statistic
 |Logistic Regression|Data Wrangling|  
 [See project on GitHub](https://github.com/burnsaustin145/Statistical-Analysis-NBA){:target="_blank"}
 
-A novel statistic was developed to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course. 
+A novel statistic was developed to represent team confidence. This work was done to fulfill a final project requirement for a graduate-level statistics course. 
 
-The crowdfactor is defined as the percentage of stadium capacity passed through a sigmoid function, effectively amplifying the effect of a very full stadium on the home or away team -- the effect is inverted for the away team. Below we see a vauge relationship between the crowdfactor and blocks, steals, and points.
+The crowdfactor is defined as the percentage of stadium capacity passed through a sigmoid function, effectively amplifying the effect of a very full stadium on the home or away team -- the effect is inverted for the away team. Below we see a vague relationship between the crowdfactor and blocks, steals, and points.
 
 <p align="center">
   <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
@@ -47,7 +44,7 @@ A team confidence statistic was then created using a combination of crowdfactor,
 </p>
 
 
-## Cyberphysical Systems
+## Cyber Physical Systems
 
 ### Carla PID Controller
 |PID|Carla|Autonomous Driving|  
@@ -66,7 +63,7 @@ A proportional-integral-derivative controller was created and tuned for car thro
   <em>A state transition diagram of the system.</em>
 </p>
 
-This system uses a waypoint selection module to plan a route, and then uses object dectection to avoid collisions. The PID provides a way for the vehicle to maintain speed at a given set-point, and allows the vehicle to achieve set-point speed smoothly after a braking event.
+This system uses a waypoint selection module to plan a route, and then uses object detection to avoid collisions. The PID provides a way for the vehicle to maintain speed at a given set-point, and allows the vehicle to achieve set-point speed smoothly after a braking event.
 
 Without tuning, we see the vehicle speed overshoots the orange line representing the given set-point. 
 
@@ -105,9 +102,7 @@ Below is one such abstract structure.
   <img src="/assets/complex_object_tran.png" alt="complex object" width="100%"/>
 </p>
 ### Haskell Based Semantic Network 
-
 |Haskell|AI|  
-
 This structure allows inferences to be made on semantic relations, as implemented in [this](https://github.com/burnsaustin145/SemanticGraph){:target="_blank"} Haskell project. 
 
 This program performs the following operations
