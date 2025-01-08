@@ -9,7 +9,8 @@ layout: default
 ## AI
 
 ### Undergraduate Research - Fine-tuning
-|Fine-tuning|LLM|
+|Fine-tuning|LLM| 
+
 [See project on GitHub](https://github.com/burnsaustin145/FineTuning){:target="_blank"}
 
 A project using fine-tuning to investigate and improve the truthfulness of chat gpt-turbo 3.5
@@ -17,22 +18,45 @@ A project using fine-tuning to investigate and improve the truthfulness of chat 
 - Insufficencies in current research were identified along with future areas of inquiry
 
 ### LLM for the Contemporary History of Iran
-|RAG|LLM|JavaScript|Firebase|
+|RAG|LLM|JavaScript|Firebase| //
+
 This project integrates current political and
 historical data into an interactive AI model, greatly improving access to information on Iran’s contemporary history.
  - [Persian Mind](https://huggingface.co/universitytehran/PersianMind-v1.0){:target="_blank"}, a Llama3 model was used in conjunction with retrieval augmented generation on academic resources
  - I designed this system and deployed it as a web application along with a quantized version of the LLM on our personal server with limited resources 
- - Not seen on github due to ownership 
+ - Not seen on github due to ownership conflicts
+
+ ## Statistical Analysis
+
+### NBA CrowdFactor Statistic
+|Logistic Regression|Data Wrangling|  
+[See project on GitHub](https://github.com/burnsaustin145/Statistical-Analysis-NBA){:target="_blank"}
+
+A novel statistic was developed to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course. 
+
+The crowdfactor is defined as the percentage of stadium capacity passed through a sigmoid function, effectively amplifying the effect of a very full stadium on the home or away team -- the effect is inverted for the away team. Below we see a vauge relationship between the crowdfactor and blocks, steals, and points.
+
+<p align="center">
+  <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
+</p>
+
+A team confidence statistic was then created using a combination of crowdfactor, blocks, and steals which was shown to predict the result of a game better than random -- as seen below. 
+
+<p align="center">
+  <img src="/assets/cf_confidence.png" alt="CF results" width="100%"/>
+</p>
+
 
 ## Cyberphysical Systems
 
 ### Carla PID Controller
 |PID|Carla|Autonomous Driving|  
+
 [See project on GitHub](https://github.com/burnsaustin145/carla_PID){:target="_blank"}
 
 <p align="center">
   <img src="/assets/carla_ex.png" alt="CF makeup" width="100%"/>
-  <em>A state transition diagram of the system.</em>
+  <em>Carla environment.</em>
 </p>
 
 A proportional-integral-derivative controller was created and tuned for car throttle and brake control. Using object detection sensors alone I was able to create a system which navigates in heavy traffic without collisions. 
@@ -59,30 +83,9 @@ After tuning, we were able to smooth out the speed after a braking event.
 </p>
 
 
-## Statistical Analysis
-
-### NBA CrowdFactor Statistic
-|Logistic Regression|Data Wrangling|  
-[See project on GitHub](https://github.com/burnsaustin145/Statistical-Analysis-NBA){:target="_blank"}
-
-A novel statistic was developed to represent team confidence. This work was done to fulfill a final project requirement for a gradute-level statistics course. 
-
-The crowdfactor is defined as the percentage of stadium capacity passed through a sigmoid function, effectively amplifying the effect of a very full stadium on the home or away team -- the effect is inverted for the away team. Below we see a vauge relationship between the crowdfactor and blocks, steals, and points.
-
-<p align="center">
-  <img src="/assets/crowdFactor_blocks_stls_tran.png" alt="CF makeup" width="100%"/>
-</p>
-
-A team confidence statistic was then created using a combination of crowdfactor, blocks, and steals which was shown to predict the result of a game better than random -- as seen below. 
-
-<p align="center">
-  <img src="/assets/cf_confidence.png" alt="CF results" width="100%"/>
-</p>
-
-
-
 ### Detroit Crime Heatmap
 |Graphical Statistics|  
+
 [See project on GitHub](https://github.com/burnsaustin145/Heat-Map){:target="_blank"}  
 
 This heatmap was created in R to visualize crime in Detroit over the last 100 years. 
@@ -101,15 +104,16 @@ Below is one such abstract structure.
 <p align="center">
   <img src="/assets/complex_object_tran.png" alt="complex object" width="100%"/>
 </p>
-### Haskell Based Semantic Network
-|Haskell|AI| 
+### Haskell Based Semantic Network 
+
+|Haskell|AI|  
 
 This structure allows inferences to be made on semantic relations, as implemented in [this](https://github.com/burnsaustin145/SemanticGraph){:target="_blank"} Haskell project. 
 
 This program performs the following operations
 
->add node_name -> adds a node to the graph
->relation domain_node relation range_node -> creates a labeled edge
->query range_node -> returns all domain nodes with range_node in the range
->infer node1 node2 -> creates a hypernode with label 'node1.node2', where the edges are the intersection of node1 edges and node2 edges
->reveal -> shows the current state of the graph
+- add node_name -> adds a node to the graph
+- relation domain_node relation range_node -> creates a labeled edge
+- query range_node -> returns all domain nodes with range_node in the range
+- infer node1 node2 -> creates a hypernode with label 'node1.node2', where the edges are the intersection of node1 edges and node2 edges
+- reveal -> shows the current state of the graph
